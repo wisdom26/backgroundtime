@@ -1,0 +1,122 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    .main {
+        width: 100%;
+    }
+    
+    nav {
+        width: 100%;
+        background-color: rgb(230, 155, 64);
+        height: 80px;
+        padding: 0px 10px;
+        line-height: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .logo a,
+    span {
+        text-underline-offset: none;
+        font-family: calibri;
+        font-style: oblique;
+        text-shadow: 2px 4px #090909;
+        font-size: 80px;
+        color: rgb(243, 231, 231);
+        font-weight: bold;
+        margin-left: 100px;
+    }
+    
+    a {
+        margin: 4px auto;
+        padding: auto;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #fff;
+        font-size: 30px;
+        transition: 0.5 all ease;
+    }
+    
+    ul {
+        margin: 0px;
+        margin-right: 100px;
+    }
+    
+    ul li {
+        float: left;
+        padding: 0px 10px;
+        list-style: none;
+    }
+    
+    ul li a:hover {
+        color: rgb(0, 0, 0);
+        margin-right: 50px;
+    }
+    
+    .header {
+        /* background-image: url('img7.jpeg'); */
+        /* background-color: rgba(184, 6, 39, 0.922); */
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    
+    footer {
+        background-color: rgb(246, 249, 248);
+        padding: auto;
+        margin-top: 90%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 60px;
+    }
+    
+    content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+    }
+    
+    .content h1 {
+        font-size: 50px;
+    }
+    
+    .content p {
+        padding: 0px 70px;
+        font-size: 20px;
+        color: rgb(255, 251, 251);
+        text-align: justify;
+    }
+    
+    button {
+        background: none;
+        border: 1px solid#fff;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 25px;
+        border-radius: 6px;
+        transition: 0.5s all ease;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    button:hover {
+        background: rgb(247, 244, 244);
+        color: #f4b2b2;
+    }
+    
+    .overlay {
+        background: rgba(0, 0, 0, .6s);
+        height: 100vh;
+    }
+    
+    .th {
+        outline: none;
+        color: #fff;
+    }
